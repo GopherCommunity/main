@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+DefaultContentLanguage = "en"
+
+[Languages]
+
+[Languages.en]
+weight = 1
+title = "Gopher Community"
+
+[Languages.de]
+weight = 2
+title = "Gopher Community"
