@@ -25,7 +25,7 @@ header {
     background: var(--dark-blue);
     border-bottom: 1rem solid var(--light-blue);
     color: #FFF;
-    padding: 8rem 0;
+    padding: 8.5rem 0 5rem 0;
 }
 
 header h1 {
@@ -50,4 +50,33 @@ header h1 span {
 .page__content {
     margin: auto;
     max-width: 600px;
+}
+
+.menu--i18n {
+    opacity: 0.6;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #333;
+    line-height: 3.5rem;
+}
+
+.menu--i18n a {
+    color: #FFF;
+    font-style: italic;
+}
+
+.menu--i18n ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu--i18n li {
+    display: inline-block;
+    margin-right: 1rem;
 }
