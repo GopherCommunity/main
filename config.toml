@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.gopher.community/"
 languageCode = "en-us"
 
 DefaultContentLanguage = "en"
