@@ -14,4 +14,4 @@ For now, make sure to check the following ressources:
 * [Gophers Slack](https://gophers.slack.com/)
 * #go-nuts on freenode
 * [go-nuts mailinglist](https://groups.google.com/group/golang-nuts)
-
+* [Learn Go](https://github.com/thewondertwins/learngo) community book
