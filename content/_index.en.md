@@ -8,6 +8,8 @@ currently looking for ideas about what types of content should be included and
 how. If you want to help, please take a look at our [project on
 Github](https://github.com/GopherCommunity/main).
 
+Looking for a [meetup](/meetup/)?
+
 For now, make sure to check the following ressources:
 
 * [NonEnglish on golang.org](https://github.com/golang/go/wiki/NonEnglish)

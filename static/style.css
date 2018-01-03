@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto');
 
 :root {
+    --darker-blue: #254077;
     --dark-blue: #375EAB;
     --light-blue: #E0EBF5;
     --fg: #222;
@@ -31,6 +32,11 @@ header {
     font-family: "Roboto Condensed", arial;
 }
 
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 header h1 {
     font-size: 4rem;
     line-height: 5rem;
@@ -39,15 +45,53 @@ header h1 {
     text-align: center;
 }
 
+header h1 a {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+}
+
 header h1 span {
     font-weight: bold;
     font-style: italic;
     color: var(--light-blue);
 }
 
+pre {
+    margin-left: 1rem;
+    background: #EFEFEF;
+    padding: 0.5rem 2rem;
+    border-left: solid 1.5rem #DDD;
+
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.page__header--subpage {
+    padding-top: 0;
+    padding-bottom: 4rem;
+}
+
+.top-bar {
+    background: var(--darker-blue);
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.top-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.top-bar a {
+    color: var(--light-blue);
+}
+
 .page {
     font-size: 2rem;
     line-height: 3rem;
+    margin-bottom: 10rem;
 }
 
 .page__content {
@@ -83,4 +127,31 @@ header h1 span {
 .menu--i18n li {
     display: inline-block;
     margin-right: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    padding: 5px;
+    border-bottom: 1px solid #DDD;
+}
+
+.table th {
+    background: #DDDDDD;
+}
+
+.table tr:nth-child(even) td {
+    background: #EFEFEF;
+}
+
+.table tr:nth-child(odd) td {
+    background: #FAFAFA;
+}
+
+.meetup-list__country {
+    margin-top: 5rem;
 }

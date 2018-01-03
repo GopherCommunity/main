@@ -1,0 +1,12 @@
+aut:
+    code: aut
+    name: Austria
+    continent: Europe
+ger:
+    code: ger
+    name: Germany
+    continent: Europe
+fra:
+    code: fra
+    name: France
+    continent: Europe
