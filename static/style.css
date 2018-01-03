@@ -28,7 +28,7 @@ header {
     background: var(--dark-blue);
     border-bottom: 1rem solid var(--light-blue);
     color: #FFF;
-    padding: 8.5rem 0 5rem 0;
+    padding: 0 0 5rem 0;
     font-family: "Roboto Condensed", arial;
 }
 
@@ -67,19 +67,16 @@ pre {
     line-height: 2.4rem;
 }
 
-.page__header--subpage {
-    padding-top: 0;
-    padding-bottom: 4rem;
-}
-
 .top-bar {
     background: var(--darker-blue);
     margin-bottom: 4rem;
     font-size: 1.8rem;
     text-align: center;
+    color: var(--light-blue);
 }
 
 .top-bar ul {
+    display: inline-block;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -101,15 +98,22 @@ pre {
 }
 
 .menu--i18n {
-    opacity: 0.6;
-    color: #FFF;
+    display: inline-block;
     text-align: center;
     font-size: 1.8rem;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background: #333;
-    line-height: 3.5rem;
+}
+
+.menu--i18n:before {
+    content: " ";
+    width: 2px;
+    height: 1.5rem;
+    display: inline-block;
+    border-left: 2px solid #FFF;
+    margin: 0 0.5rem;
+}
+
+.top-bar--home .menu--i18n:before {
+    display: none;
 }
 
 .menu--i18n a {
@@ -141,6 +145,7 @@ pre {
 }
 
 .table th {
+    text-align: left;
     background: #DDDDDD;
 }
 
@@ -152,6 +157,7 @@ pre {
     background: #FAFAFA;
 }
 
+h2, 
 .meetup-list__country {
     margin-top: 5rem;
 }

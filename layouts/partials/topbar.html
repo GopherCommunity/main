@@ -1,5 +1,19 @@
-<nav class="top-bar">
+<nav class="top-bar {{ if .IsHome }} top-bar--home{{ end }}">
+    {{ if (not .IsHome) }}
     <ul>
         <li><a href="/">↖︎ <span>Gopher</span>.community</a></li>
     </ul>
+    {{ end }}
+    {{ if .IsTranslated }}
+    <div class="menu menu--i18n">
+        <span>{{ i18n "i18n-menu__label" }}</span>
+        <ul>
+            {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ i18n .Lang }}</a>
+            </li>
+            {{ end}}
+        </ul>
+    </div>
+    {{ end }}
 </nav>

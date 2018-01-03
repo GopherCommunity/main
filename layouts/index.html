@@ -1,19 +1,8 @@
 {{ partial "head.html" . }}
 <div class="page page--home">
     <header class="page__header">
+        {{ partial "topbar.html" . }}
         <h1><span>Gopher</span>.community</h1>
-        {{ if .IsTranslated }}
-        <nav class="menu menu--i18n">
-            <span>{{ i18n "i18n-menu__label" }}</span>
-            <ul>
-                {{ range .Translations }}
-                <li>
-                    <a href="{{ .Permalink }}">{{ i18n .Lang }}</a>
-                </li>
-                {{ end}}
-            </ul>
-        </nav>
-        {{ end }}
     </header>
     <div class="page__content">{{ .Content }}</div>
 </div>

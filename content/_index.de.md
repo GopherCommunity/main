@@ -8,6 +8,8 @@ derzeit noch nach Ideen, was wir allen hier unterbingen können. Falls du
 mithelfen möchtest, bitte schau auf unseren [Projekt auf
 Github](https://github.com/GopherCommunity/main) vorbei.
 
+Suchst du nach einem [Go-Treffen](/meetup/)?
+
 Vorerst hier ein paar Links:
 
 * [NonEnglish auf golang.org](https://github.com/golang/go/wiki/NonEnglish)
